@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Accordion Image Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="background-color: #fcab1e;">
+<script src="angelia li.js"></script>
+
+<!-- partial:index.partial.html -->
+<div class="bac2"></div>
+ </div> 
+<!-- partial -->
+<p><img src="C:\Users\24616\Desktop\Angelia\dist\img\17.png" align=left border=0>
+  <center><h1>&#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812 &#127812</h1 clear=left></center>
+   <center><h1 style="color: #825507">&#10024WELCOME TO MY WORLD&#10024</h1 clear=left></center>
+   <center><h1 style="color: #593902">&#10083Let's Play A Game&#10083</h1 clear=left></center>
+   <center><h1 style="color: #593902">Who Am I?</h1 clear=left></center>
+   <center><h2 style="color: #962d3d">&#127804Just Take A Guess&#127804</h2 clear=left></center>
+   <center><button class="button" onclick="c01()">Daisy</button> <button class="button" onclick="c02()">Cherry</button> <button class="button" onclick="c02()">Lily</button> <button class="button" onclick="c02()">Lychee</button></center>
+
+</p>
+<p id="word1"></p>
+<p id="word2"></p>
+<script>
+  function c01() {
+    alert("Yes! You're Right! I'm Daisy, Nice To Meet You.");
+}
+
+  function c02() {
+    alert("Sorry That's not my name.");
+}
+
+</script>
+
+<table id="t03">
+  <tr align="left">
+    <th>First Appearance</th>
+    <th>Last Appearance</th>
+    <th>Created by</th>
+    <th>Portrayed by</th>
+    <th>Voiced by</th>
+    <th>Species</th>
+    <th>Title</th>
+    <th>Occupation</th>
+    <th>Fighting Style</th>
+    <th>Origin</th>
+  </tr>
+
+  <tr>
+    <th>Super Mario Land(1989)</th>
+    <th>Mario & Sonic at the Olympic Games Tokyo 2020 - Arcade Edition (2020)</th>
+    <th>Gunpei Yokoi</th>
+    <th>Samantha Mathis (Super Mario Bros.)</th>
+    <th>Melissa Beckford (Super Mario Compact Disco)[1]
+Jessica Chisum (2000)
+Jen Taylor (2000–2003)
+Deanna Mustard (2003–present)
+Noriko Hidaka (Japanese DVD dub of Super Mario Bros film)
+Maya Okamoto (Japanese Nippon TV dub of Super Mario Bros Film)</th>
+    <th>Human</th>
+    <th>Princess</th>
+    <th>Princess</th>
+    <th>Magic</th>
+    <th>Sarasaland</th>
+  </tr>
+</table>
+<h1>                                                   
+</h1>
+<center><h1>&#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803 &#127803</h1>
+<button onclick="move()" style="background-color:black; size: 50px;"><h2 style="color: gray">Try Me For Some Fun &#127863</h2></button></center>
+
+  <div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<center><h1 style="color:#854dbd">&#127879 &#127879 &#127879 &#127879 &#127879 Come dance with me and Princess Peach!&#127879 &#127879 &#127879 &#127879 &#127879</h1></center>
+<br>
+<script>
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+} 
+</script>
+<div style="text-align:center"> 
+  <button onclick="playPause()" style="background-color: #f5b3d2 ; width: 100px; height: 50px;" >Play/Pause</button> 
+  <br><br>
+  <video id="video2" width="1000">
+    <source src="C:\Users\24616\Desktop\Angelia\dist\img\Princess Daisy and Princess Peach.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video2"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+</script> 
+
+<center><p style="color: white">Video courtesy of <a href="https://www.youtube.com/watch?v=xyj2B2y91hs" target="_blank">Princess Daisy and Princess Peach - Dance to Super Mario Party Music</a>.</p></center>
+
+<center><img src="C:\Users\24616\Desktop\Angelia\dist\img\8.2.png" width="900px" height="200px"></center>
+
+</body>
+</html>

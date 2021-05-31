@@ -1,0 +1,156 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: "Oswald", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+h2 {
+  position: relative; 
+  font-size: 30px;
+  color: #0068fa;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 7;
+}
+
+.item-1 {
+  background-image: url("img/1.jpg");
+}
+
+.item-2 {
+  background-image: url("img/2.jpg");
+}
+
+.item-4 {
+  background-image: url("img/4.png");
+}
+
+
+.social {
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+}
+.social img {
+  display: block;
+  width: 32px;
+} 
+.bac {
+  width: 100%;
+  height: 290px;
+  background-image: url("img/7.png");
+  background-color: red;
+}
+.bac1 {
+  width: 100%;
+  height: 680px;
+  background-image: url("img/13.jpg");
+  background-color: #02d430;
+}
+
+.bin {
+  width: 100%;
+  height: 300px;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+ th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #f7d2e0;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #d2e3f7;
+}
+#t01 th {
+  background-color: #326bf0;
+  color: #ffda08;
+  font-size: 19px;
+}
+#t02 th {
+  background-color: #3045a1;
+  color: #ffda08;
+  font-size: 19px;
+}
+#t03 {
+  background-color: #bc8ff2;
+  color: #593902;
+  font-size: 19px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7798c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #f7798c}
+
+.button:active {
+  background-color: #edbec5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #04AA6D;
+}
+.word1 .word2 {
+  text-align: center;
+}
+.button1 {
+ background-color: hotpink;
+}

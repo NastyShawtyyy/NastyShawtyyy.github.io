@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Accordion Image Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+<h1>SUPER MARIO<p id="demo1"></p></h1>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo1").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+  <div class="gallery-wrap">
+    <div class="item item-1" onclick="item1()"></div>
+    <div class="item item-2" onclick="item2()"></div>
+    <div class="item item-4" onclick="item4()"></div>
+  </div>
+ </div>
+
+<div class="social">
+  <!--<a href="" target="_blank">!-->
+    <img src="img/6.png">
+  </a>
+</div>
+<!-- partial -->
+  
+
+<script >
+  console.log('aaaa');
+  var a = document.getElementsByName("item item-1");
+  function item1(){
+     window.location.href='index1.html';
+     console.log("dain")
+  }
+  function item2(){
+     window.location.href='index2.html';
+     console.log("dain")
+  }
+
+  function item4(){
+     window.location.href='index4.html';
+     console.log("dain")
+  }
+
+</script>
+
+
+
+</body>
+</html>

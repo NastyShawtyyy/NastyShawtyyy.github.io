@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Accordion Image Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="background-color: #02d430;">
+<!-- partial:index.partial.html -->
+<div class="bac1"></div>
+ </div> 
+<!-- partial -->
+<script src="angelia li.js"></script>  
+
+<h1 style="color:white;">______________________________________________________________________________________________</h1>
+<table id="t02">
+<tr align="left">
+    <th><strong>Full Name</strong></th>
+    <th><b>Appearance</b></th>
+    <th><b>Created by</b></th>
+    <th><b>Portrayed by</b></th>
+    <th><b>Voiced by</b></th>
+    <th><b>First</b></th>
+    <th><b>Occupation</b></th>
+    <th><b>Family</b></th>
+    <th><b>Origin</b></th>
+    <th><b>Nationality</b></th>
+  </tr>
+
+  <tr>
+    <th>Luigi Mario</th>
+    <th>(1983)</th>
+    <th>Shigery Miyamoto</th>
+    <th>Danny Wells & John Leguizamo</th>
+    <th><b>English</b> Charles Martinet (1992–1996, 1997–present),Bob Sorenson (1993),Marc Graue (1994) and Julien Bardakoff (1998–2001). <b>Japanese</b> Ichirōta Miyagawa (1996–1998) & Julien Bardakoff (1996)</th>
+    <th>Mario Bros</th>
+    <th>Plumber</th>
+    <th>Mario (twin brother)</th>
+    <th>Mushroom Kingdom</th>
+    <th>Italian</th>
+  </tr>
+</table>
+<h1>                                                   
+</h1><h1>                                                   
+</h1><h1>                                                   
+</h1>
+<div style="text-align:center"> 
+  <button onclick="playPause()" style="background-color: #98c96d">Play/Pause</button> 
+  <button onclick="makeBig()"style="background-color: #98c96d">Big</button>
+  <button onclick="makeSmall()"style="background-color: #98c96d">Small</button>
+  <button onclick="makeNormal()"style="background-color: #98c96d">Normal</button>
+  <br><br>
+<div><img src="C:\Users\24616\Desktop\Angelia\dist\img\14.2.png">
+  <video id="video1" width="500">
+    <source src="C:\Users\24616\Desktop\Angelia\dist\img\Luigi.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video><img src="C:\Users\24616\Desktop\Angelia\dist\img\14.png">
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 700; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 400; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 500; 
+} 
+</script> 
+
+<center><p style="color: white">Video courtesy of <a href="https://www.youtube.com/watch?v=sOyF1G5dAHA" target="_blank">LUIGI'S MANSION 4 TRAILER FOR NINTENDO SWITCH</a>.</p></center>
+<h1>                                                   
+</h1>
+
+<center><h1 style="color:white">&#128071!Try Another One!&#128071</h1></center>
+<center><button onclick="myFunction2()" style="background-color: #02d430;"><h2>Who Is He?</h2><img src="C:\Users\24616\Desktop\Angelia\dist\img\16.png" width="300px" height="300px"></button></center>
+<center><h1 id="demo2"></h1></center>  
+<script>
+function myFunction2() {
+  var txt;
+  var person = prompt("Who Is He?:");
+  if (person == "Luigi" || person == "cancel") {
+    txt = "Congradulations My friend! You Did Great Job~~&#128151";
+  } else {
+    txt = "Come On! Friends, I Know You Know It.&#9994";
+  }
+  document.getElementById("demo2").innerHTML = txt;
+}
+</script>
+
+
+<img src="C:\Users\24616\Desktop\Angelia\dist\img\8.2.png">
+
+  
+</body>
+</html>
